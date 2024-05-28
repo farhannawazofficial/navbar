@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* -----------------------------Main Div---------------------------------------- */
+.mainDiv {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    background-color: #047018;
+    align-items: center;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.mainDiv img:hover {
+    cursor: pointer;
+}
+
+.left img {
+    padding-inline: 30px;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 350px;
+    align-items: center;
+    gap: 20px;
+}
+
+.right li {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.right li:hover {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* -----------------------------Sing in Button--------------------------------------- */
+
+.Singin {
+    color: white;
+    background: none;
+    border: 50px;
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Singin:hover {
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #047018;
+    border: 1px solid white;
+}
+
+/* -----------------------------Enroll Button---------------------------------------- */
+
+.Enroll {
+    padding-inline: 30px;
+    padding-block: 10px;
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+
+}
+
+.sec-Enroll {
+    padding-inline: 30px;
+    padding-block: 10px;
+    font-family: sans-serif;
+    background-color: #047018;
+    border-radius: 50px;
+    color: white;
+    border: none;
+
+}
+
+.sec-Enroll:hover {
+    cursor: pointer;
+    color: #047018;
+    font-weight: 700;
+    background-color: #04701800;
+    border: 1px solid #047018;
+}
+
+.Enroll:hover {
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #047018;
+    border: 1px solid white;
+}
+
+
+/* -----------------------------Hero Season--------------------------------------- */
+
+.hero {
+    background-color: #FDF8EE;
+    height: 500px;
+    padding-inline: 100px;
+}
+
+.hero-left {
+    height: 20px;
+    background-color: #ecca0800;
+    padding-block: 140px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+}
+
+.hero p {
+    background-color: #ecca0800;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 0px;
+
+}
+
+.hero-left span {
+    color: #047018;
+}
+.sec2{
+    height: 90vh;
+    background-image: url(pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 200px;
+    /* filter:  brightness(0.5)  ; */
+    
+}
+
+.sec2 h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+.sec2 p {
+    color: white;
+    font-size: 22px;
+}
